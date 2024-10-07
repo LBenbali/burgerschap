@@ -6,9 +6,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
@@ -25,12 +25,12 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 nav ul li a {
@@ -43,9 +43,39 @@ main {
     padding: 20px;
 }
 
-main h2 {
+section h2 {
     margin-top: 20px;
     color: #4CAF50;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
 }
 
 footer {
@@ -54,12 +84,4 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-}
-
-ul {
-    margin: 10px 0;
-}
-
-ul li {
-    margin-bottom: 10px;
 }
